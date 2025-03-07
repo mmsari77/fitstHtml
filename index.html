@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>This is the title</title>
+        <link rel="stylesheet" href="/static/styles/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> <!-- Импортируем шрифт Roboto -->
+	</head>
+
+	<body>
+        
+
+        <div class="obs">
+        <img src="/static/images/Group 3.png" alt="fhoto" class="photo">
+        <h1 class = "udos">Удостоверение личности</h1>
+
+        </div>
+        <div class="square">
+            <div class="right-square">
+                <div class="Doc"> Документ</div>
+            </div>
+            <div class="left-square">
+                <div class="Rek"> Реквизиты</div>
+            </div> <!-- Добавляем внутренний квадрат -->
+        </div>
+        <div class="square1">
+            <img src="/static/images/qr (1).png" alt="" class="qr"> 
+            <div class="pred">Предъявить документ</div>
+            <div class="square2">
+                <img src="/static/images/Group 1.png" alt="" class="qr1">
+                <div class="otpr">Отправить документ</div>
+            </div>
+        </div>
+        <button class="zag" onclick="document.getElementById('fileInput').click()">Загрузите изображение</button> <!-- Изменяем на кнопку -->
+        <input type="file" id="fileInput" style="display: none;" onchange="loadImage(event)"> <!-- Добавляем input для загрузки файла -->
+        <img id="uploadedImage" class="uploadedImage"> <!-- Добавляем класс для центрирования изображения -->
+        <script src="/static/Javascript/script.js"></script> <!-- Подключаем скрипт -->
+    </body>
+</html>

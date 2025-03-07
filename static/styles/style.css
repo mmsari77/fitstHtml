@@ -1,0 +1,150 @@
+.obs {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.photo {
+    width: 2%;
+    height: 2%;
+    vertical-align: middle;
+    margin-left: 15px;
+    margin-top:10px /* Изменяем отступ на слева для фото */
+}
+
+.header {
+    font-family: "Roboto", medium;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.udos {
+    flex: 1;
+    text-align: center;
+}
+
+.square {
+    width: 90%;
+    height: 60px;
+    border-radius: 14px;
+    background-color: #d9d9d9;
+    margin: 0 auto;
+}
+
+.right-square {
+    width: 49%;
+    height: 51px;
+    background-color: #ffffff; /* Черный цвет для внутреннего квадрата */
+    margin: 0 auto;
+    margin-top: 4px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 14px;
+}
+
+.Doc {
+    text-align: center;
+    margin-top: 6px;
+    font-size: 30px;
+    font-family: "Roboto", Regular; /* Изменяем шрифт на Roboto, Regular */
+}
+
+.Rek {
+    text-align: center;
+    margin-top: 6px;
+    font-size: 30px;
+    font-family: "Roboto", Regular;
+}
+
+.left-square {
+    width: 49%;
+    height: 50px;
+    background-color: #d9d9d9; /* Черный цвет для внутреннего квадрата */
+    margin: 0 auto;
+    margin-top: 5px;
+    float: left;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+.square1 {
+    width: 90%;
+    height: 100px; /* Добавляем высоту для видимости */
+    background-color: #0B69A3; /* Добавляем цвет фона для видимости */
+    margin: 0 auto;
+    position:absolute;
+    bottom:20px;
+    margin-left: 4.5%;
+    border-radius: 15px;
+    margin-bottom: 200px;
+}
+.qr{
+    width: 48px;
+    height: 48px;
+    margin-left:24%;
+    margin-top: 25px;
+    position: absolute;
+
+}
+
+.pred {
+    text-align: center;
+    margin-top:30px;
+    font-size:33px;
+    color:white;
+    font-family:"Roboto",SemiBold;
+    margin-left:10px;
+
+}
+.square2{
+    width: 100%;
+    height: 100px;
+    background-color: hsl(0, 0%, 100%);
+    border: 3px solid #A1C1D4;
+    border-radius: 15px;
+    margin : 0 auto;
+    margin-top:60px;
+}
+.otpr{
+    text-align: center;
+    font-size:35px;
+    margin-top:27px;
+    color:#0B69A3;
+    font-family: "Roboto",medium;
+}
+.qr1{
+    width: 36.9px;
+    height:41.2px;
+    margin-left:25%;
+    margin-top: 22px;
+    position: absolute;
+}
+.zag{
+    display: block;
+    width: 60%;
+    font-size: 30px;
+    margin: 20px auto;
+    padding: 10px;
+    color: #fff;
+    background-color: #0B69A3;
+    border: none;
+    border-radius: 14px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Roboto", medium;
+    margin:0 auto;
+    margin-top: 400px;
+
+}
+.uploadedImage{
+    display: block;
+    width: 100%;
+    max-width: 700px; /* Ограничиваем максимальную ширину */
+    margin: 20px auto; /* Центрируем изображение */
+}
